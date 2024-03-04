@@ -17,7 +17,7 @@ function Equipage() {
                 console.log(error);
             })
     }, [])
-
+    //pour stocker la valeur du perso selectionné et le détail correspondant
     const handleCharacterClick = (character) => {
         setSelectedCharacter(character.name),
         setDetail([character.age,character.job,character.bounty,])
@@ -38,6 +38,7 @@ function Equipage() {
                         
                     ))}
                 </div>
+                {/* on affcihe l'image du perso correspondant car le nom de l'image correspond au nom du perso */}
                 <div className='Description'>
                     <Description imageUrl={selectedCharacter} />
                     
