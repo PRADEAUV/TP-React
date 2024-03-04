@@ -1,0 +1,151 @@
+#root {
+  margin: 0 ;
+  padding: 0;
+  
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  float: left;
+  font: bold 20px; 
+  border: 1px solid #121314;
+  border-top: 1px solid #2b2e30;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 0px;
+  overflow: hidden;
+  width:100%;
+  display: flex;
+ justify-content: center;
+ margin-bottom: 50px;
+
+}
+
+nav a {
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+nav ul{
+  list-style: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+  
+}
+
+nav ul li{
+  text-align: center;
+  display: inline-block; 
+}
+
+
+.container{
+  margin: 30px;
+  min-height: 1200px;
+  text-align: center;
+}
+
+.footer{
+  margin-top: auto;
+  text-decoration: none;
+  margin-bottom: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    float: left;
+    font: bold 20px; 
+    border: 1px solid #121314;
+    border-top: 1px solid #2b2e30;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 0px;
+    overflow: hidden;
+    width:100%;
+    display: flex;
+   justify-content: center;
+   
+  }
+
+  .footer ul li{
+    list-style: none;
+  }
+
+  .ImageHome{
+    text-align: center;
+    
+  }
+  .ImageHome img{
+    margin: 20px;
+   width: 700px;
+   height: auto;
+    
+  }
+
+  .Equipage{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+
+  }
+
+  .Description{
+    display: inline-block;
+    
+  }
+
+  .Equipage button{
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .DetailPerso{
+    width: 400px;
+   height: auto;
+  }
+
+  .detail{
+    display: inline-block;
+  }
+
+
