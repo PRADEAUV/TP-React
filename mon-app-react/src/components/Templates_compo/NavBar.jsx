@@ -12,6 +12,10 @@ function NavBar(){
                 <li>
                 <NavLink to="/Equipage">Equipage  </NavLink>
                 </li>
+            
+                <li>
+                <NavLink to="/ListeFruit">Liste des Fruits </NavLink>
+                </li>
             </ul>
 
         

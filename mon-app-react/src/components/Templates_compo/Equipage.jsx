@@ -20,7 +20,7 @@ function Equipage() {
     //pour stocker la valeur du perso selectionné et le détail correspondant
     const handleCharacterClick = (character) => {
         setSelectedCharacter(character.name),
-        setDetail([character.age,character.job,character.bounty,])
+        setDetail([character.age,character.job,character.bounty,character.age])
     }
     
 
