@@ -7,7 +7,7 @@ function Perso(){
             <div className="container">
                 <div>
                     <p>Personnages :</p>
-                    Cette page contient une liste des personnages du manga One Piece :
+                    Cette page contient la liste des personnages du manga One Piece :
                     
                 </div>
                <DataApi/>
